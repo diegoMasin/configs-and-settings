@@ -1,0 +1,56 @@
+{
+  // GIT
+  "git.ignoreLegacyWarning": true,
+  "git.autofetch": true,
+
+  // VS Code
+  "explorer.compactFolders": false,
+
+  // TEMAS e IDE
+  "workbench.colorTheme": "Dracula",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 14,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "breadcrumbs.enabled": true,
+
+  // EDITOR
+  "editor.formatOnSave": true /* !!!! IMPORTANTE !!!! */,
+  "editor.codeActionsOnSave": ["source.organizeImports"],
+  "editor.parameterHints.enabled": false,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.rulers": [120] /* !!!! IMPORTANTE !!!! */,
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".vscode": true,
+    ".idea": true,
+    "**/*.pyc": true,
+    "**/__pycache__": true
+  } /* !!!! IMPORTANTE !!!! */,
+
+  // GIT LENS
+  "gitlens.advanced.messages": { "suppressGitVersionWarning": true },
+
+  // HTML
+  "html.format.indentInnerHtml": true,
+  "html.format.indentHandlebars": true,
+  "html.suggest.html5": true,
+  "html.validate.styles": true,
+  "html.validate.scripts": true,
+  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" }
+}
