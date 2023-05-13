@@ -18,7 +18,6 @@ Check this URL for complete other points like some installations using yarn/npm:
 ```
 - https://dev.to/willmorim/configurando-editorconfig-eslint-e-prettier-257e
 - https://gist.github.com/leohmoraes/81cd6449b5da418a06524b80a44fda9c
--
 ```
 
 Other Tips: Follow also this URLs above If you want to make a complete setup, from the beginning.
@@ -27,7 +26,7 @@ Other Tips: Follow also this URLs above If you want to make a complete setup, fr
 
 For this kind of projects use the files into this path on root.
 
-### extensions list installed inside VS Code
+### Extensions' list installed inside VS Code
 
 - ESLint
 - EditorConfig for VS Code
