@@ -1,0 +1,20 @@
+{
+  // PYTHON DJANGO
+  "python.linting.enabled": true,
+  "python.formatting.provider": "none",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8" // install vscode extension autopep8
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+  },
+  
+  "files.associations": {
+    "**/templates/*.html": "django-html",
+    "**/templates/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    "*.html": "html"
+  },
+  "djangointellisense.projectRoot": "${workspaceFolder}",
+  "djangointellisense.settingsModule": "${workspaceFolder}/escola/settings.py" // update if necessary
+}

@@ -19,8 +19,7 @@
   "breadcrumbs.enabled": true,
 
   // EDITOR
-  "editor.formatOnSave": true /* !!!! IMPORTANTE !!!! */,
-  "editor.codeActionsOnSave": ["source.organizeImports"],
+  "editor.formatOnSave": true, /* !!!! IMPORTANTE !!!! */
   "editor.parameterHints.enabled": false,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
@@ -28,9 +27,10 @@
   "editor.fontSize": 16,
   "editor.lineHeight": 26,
   "editor.semanticHighlighting.enabled": false,
-  "editor.rulers": [120] /* !!!! IMPORTANTE !!!! */,
+  "editor.rulers": [120], /* !!!! IMPORTANTE !!!! */
   "editor.renderLineHighlight": "gutter",
   "editor.fontLigatures": true,
+  "editor.inlineSuggest.enabled": true,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -41,16 +41,18 @@
     ".idea": true,
     "**/*.pyc": true,
     "**/__pycache__": true
-  } /* !!!! IMPORTANTE !!!! */,
+  }, /* !!!! IMPORTANTE !!!! */
 
   // GIT LENS
-  "gitlens.advanced.messages": { "suppressGitVersionWarning": true },
-
+  "gitlens.advanced.messages": {"suppressGitVersionWarning": true},
+  
   // HTML
   "html.format.indentInnerHtml": true,
   "html.format.indentHandlebars": true,
   "html.suggest.html5": true,
   "html.validate.styles": true,
   "html.validate.scripts": true,
-  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" }
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
 }

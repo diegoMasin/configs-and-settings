@@ -39,4 +39,4 @@ For this kind of projects use the files into this path on root.
 - GitLens
 - isort (Python)
 - Python
-- Pylance
+- autopep8
