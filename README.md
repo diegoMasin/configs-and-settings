@@ -32,11 +32,10 @@ For this kind of projects use the files into this path on root.
 - EditorConfig for VS Code
 - Prettier - Code formatter
 - Tailwind CSS Intellisense
-- Prisma
-- Prisma - Insider
 - Django
 - django-intellisense
 - GitLens
 - isort (Python)
 - Python
 - autopep8
+- Pylint
