@@ -33,9 +33,7 @@ For this kind of projects use the files into this path on root.
 - Prettier - Code formatter
 - Tailwind CSS Intellisense
 - Django
-- django-intellisense
 - GitLens
 - isort (Python)
 - Python
 - autopep8
-- Pylint
