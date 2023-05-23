@@ -32,7 +32,6 @@ For this kind of projects use the files into this path on root.
 - EditorConfig for VS Code
 - Prettier - Code formatter
 - Tailwind CSS Intellisense
-- Django
 - GitLens
 - isort (Python)
 - Python
