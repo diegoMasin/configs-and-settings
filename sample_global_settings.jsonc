@@ -7,7 +7,7 @@
   "explorer.compactFolders": false,
 
   // TEMAS e IDE
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Dracula Theme",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.labelFormat": "short",
