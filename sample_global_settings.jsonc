@@ -55,4 +55,17 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "remote.autoForwardPortsSource": "hybrid",
+
+  // Code Runner - extension for VS Code
+  "code-runner.runInTerminal": true,
+  "code-runner.ignoreSelection": true,
+
+  //Ruby
+  "[ruby]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "rubocop.vscode-rubocop"
+  },
+  "rubocop.mode": "enableViaGemfile",
 }
