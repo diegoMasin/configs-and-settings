@@ -61,11 +61,21 @@
   "code-runner.runInTerminal": true,
   "code-runner.ignoreSelection": true,
 
-  //Ruby
+  // Ruby
   "[ruby]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.defaultFormatter": "rubocop.vscode-rubocop"
   },
   "rubocop.mode": "enableViaGemfile",
+
+  // JS
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+
+  // JSON
+  "[json]": {
+    "editor.tabSize": 2
+  }
 }
