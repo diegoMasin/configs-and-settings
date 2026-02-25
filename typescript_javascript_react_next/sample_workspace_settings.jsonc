@@ -6,7 +6,7 @@
 
   // CORREÇÕES AUTOMÁTICAS PELO ESLINT
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "always"
   },
 
   // JAVASCRIPT, TYPESCRIPT, REACT IN GENERALS
